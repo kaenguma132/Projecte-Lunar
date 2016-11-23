@@ -1,0 +1,115 @@
+body,html
+{
+	height:100%;
+	padding:0px;
+	margin:0px;
+	background-image: url("../img/fondo_espacio.png");
+	color: white;
+}
+
+div.contenido
+{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+@font-face
+{
+	font-family: Numeros_digitales;
+	src: url(../fonts/DS-DIGI.otf), url(../fonts/DS-DIGIB.otf);
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.bloque
+{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+
+}
+.land
+{
+	background-image: url("../img/fondo1.jpg");
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+#nave
+{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+}
+
+ul li
+{
+	list-style: none;
+}
+
+#menu-inicio
+{
+	margin: 0;
+	padding-top: 35%;
+	text-align: center;
+}
+
+#menu-inicio li a
+{
+	display: block;
+	padding: 10px 15px;
+}
+
+#menu-inicio li ul li
+{
+	display: inline-block;
+}
+
+#opciones-juego
+{
+	margin-right: 30px;
+	float: right;
+}
+
+#opciones-juego li a
+{
+	display: block;
+	padding: 10px 15px;
+}
+
+#opciones-juego li ul
+{
+	display: none;
+	position: absolute;
+	margin-right: 30px;
+}
+
+#opciones-juego li:hover > ul
+{
+	display: block;
+}
+
+#panel-control{padding: 10px 15px;}
+
+#panel-control span
+{
+	font-family: Numeros_digitales, sans-serif;
+}
+
+.info
+{
+	padding-top: 35%;
+	margin: 0;
+	text-align: center;
+}
