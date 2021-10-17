@@ -1,3 +1,6 @@
+
+Este cambio se hace para la practica de ciberseguridad  borrar despues de terminar
+
 # Proyecto Lunar
 Para esta practica he usado el ejemplo  que usted puso en el foro lo que en vez vez de dejarlo de la forma que lo puso yo lo he distribuido de una manera diferente en vez de llamarlo <b>.a .b.c.d y que ponga las proporciones yo lo he llamado <i>class=.bloque y class=land </i> </b>
 ya que usan las mismas características para las 3 secciones y no hace falta distinguirla si fueran proporciones diferentes si que las distinguiría  y la 4 es distinta por ese motivo le he puesto una clase distinta a esta pagina la he llamado jugar
